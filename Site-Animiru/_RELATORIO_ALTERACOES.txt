@@ -1,0 +1,150 @@
+
+RELATÓRIO DE ATIVIDADES E ALTERAÇÕES
+
+/////////////////////////////////////////////////////////////////////
+DATA: 27/04/2023
+    DESENSOLVEDOR: Guilherme Gomes
+        * Escolha do layout do site (layout 2, dentro da pasta Layout base)
+        * Decidido tema do site - Jogos;
+        * Pesquisa de referências;
+        * Construção do wireframe do index (necessárias 5 páginas + index);
+        * Decidido fazer o index com scroll horizontal;
+
+    COMENTÁRIOS: Após fazer a estrutura do HTML, comecei pesquisando como realizar o scroll horizontal, testando algumas formas encontradas e implementando a forma final (utilizando JavaScript).
+
+/////////////////////////////////////////////////////////////////////
+DATA: 28/04/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Tema do site alterado para - Animes;
+        * Pesquisa de novas referências;
+        * Decidida paleta de cores do site (amarelo/roxo);
+        * Decidida font-family do site (Syne - https://fonts.google.com/specimen/Syne);
+        * Trabalhado no CSS do index;
+        * Implementado carrossel na página inicial;
+
+    COMENTÁRIOS: Mudei o tema para refletir melhor o meu gosto. Após pesquisa foi decidido na cor amarela como principal, e utilizando tons de roxo como oposto complementar. Implementado carrossel de imagens na página inicial, com passador e seletor.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 01/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Criação e estruturação HTML da página notícias.html;
+        * Decidido utilizar scroll horizontal apenas no index, com scroll vertical em todas as outras;
+        * Alerações no JavaScript do scroll-horizontal para contemplar apenas o index;
+        * Implementados nomes de classes para diferenciar comportamento de wrapper e sections entrehorizontal e vertical;
+        * Trabalhado no CSS para páginas verticais;
+
+    COMENTÁRIOS: Devido a utilizar mais de um tipo de scroll, o código JavaScript para o scroll horizontal foi passado para o index, e retirado do arquivo .js, dessa maneira as outras páginas se comportam de maneira normal. Para o CSS foram implementadas classes e IDs diferenciando comportamentos em horizontal e vertical
+
+/////////////////////////////////////////////////////////////////////
+DATA: 02/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Alteração da section03 do index para tipo display: grid;
+        * Busca de imagens para utilizar no site (pôster dos animes);
+        * Alteração no slideshow JavaScript do index para um simplificado apenas com CSS e HTML;
+    
+    COMENTÁRIOS: Para estruturação dos itens de cada anime na section03 do index foi alterado para grid, já pensando em utilizar a mesma estrutura para mais páginas do site (página das temporadas, por exemplo). O carrossel utilizado estava com muito código conflitante com outras áreas do site, foi optado por simplificar a um passador com CSS.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 03/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Criação de página abril2023.html utilizando como base a estrutura vertical, e o grid da section03 do index;
+        * Trabalho no CSS da página abril2023;
+        * Criação e finalização da página de login.html e seu CSS;
+        * Busca de vetores para utilizar em conjunto ao background e atualização do CSS;
+        * Colocada ação nos botões das páginas com JavaScript;
+        * Criada conta falsa com JavaScript para teste de redirecionamento de página (usuário: admin // senha: admin);
+    
+    COMENTÁRIOS: A pedido do professor, foi necessária implementação de uma tela de login. Notei que apenas as cores do background-color estava deixando o design sem textura. Pesquisei por vetores com linhas e implementei com pseudo-elementos.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 04/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Implementação menu dropdown no nav lateral esquerdo;
+        * Organização do CSS;
+        * Começo de responsividade com mediaquery;
+
+    COMENTÁRIOS: Dia lento para HTML, resolvidos pequenos conflitos no CSS, implementado menu dropdown com Javascript pensando em mobile, invés de hover como foi pedido.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 05/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Busca de imagens para atualização da página de notícias e index;
+        * Alteração do footer em todas as páginas, criando responsividade em mediaquery;
+
+    COMENTÁRIOS: none.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 06/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Teste de temas para o site, alterando a proporção das cores;
+    
+    COMENTÁRIOS: Dia mais lento, fiquei testando proporções de cores para ver qual opção era a melhor, deixei duas opções na pasta ../img/Temas.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 07/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Procura de um favicon para as páginas do site;
+        * Trabalho pesado em mediaquery;
+    
+    COMENTÁRIOS: Trabalhei durante várias horas em deixar o site completamente responsivo.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 08/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Criação e estruturação da página gêneros.html;
+        * Criação e estruturação da página alfabetico.html;
+        * Criação e estruturação da página animedoano.html;
+        * Pesquisa de imagens e informações para as páginas criadas;
+        * Trabalho do CSS nas páginas;
+        * Carrossel da página inicial substituído por um com JavaScript (../js/jsSlider.js);
+     
+    COMENTÁRIOS: Devido a estrutura básica de grid já ter sido criada anteriormente (no dia 02/05), ela foi utilizada nas páginas de gênero e alfabético de forma a manter um padrão estético. A imagem da página Anime do Ano foi retirada do site da Crunchyroll, devido a serem os criadores da nominação. A substituição do carrossel foi decidida devido ao slider com apenas HTML e CSS não possibilitava a passagem dos slides com botões.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 09/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * ENTREGA PARCIAL DO PROJETO;
+        * Após a entrega:
+        * Criação da página janeiro2023.html;
+        * Pesquisa de imagens dos animes da temporada;
+    
+    COMENTÁRIOS: Dia da entrega parcial do projeto através do Classroom criado pelo professor Matheus. Após a entrega continuei com a criação da próxima página de temporada de animes, como utiliza a mesma estrutura, a criação se deu com a cópia do código e o ajuste de texto e pesquisa de novas imagens.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 10/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Criação da página outubro2022.html;
+        * Pesquisa de imagens dos animes da temporada;
+    
+    COMENTÁRIOS: none.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 19/05/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Ao realizar a validação no site (https://validator.w3.org/#validate_by_upload) foram verificados erros quanto às tags main, section e também ao utilizar Lorem;
+        * Corrigidos os erros encontrados nas páginas: abril2023.html, alfabetico.html, animedoano.html, generos.html e index.html;
+    
+    COMENTÁRIOS: Na validação do HTML das páginas foram encontrados erros de main e section, que pedem um título em h1 e h2+ respectivamente, devido a colocar os títulos em outros elementos, foram alteradas essas tags para tipo div.
+
+/////////////////////////////////////////////////////////////////////
+DATA: 01/06/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Criação da página específica para informações do anime (demonslayer.html), contendo sinopse completa, elenco técnico e trailer do anime.
+        * Trailer do anime implmentado utilizando a ferramenta de implementação de vídeo do YouTube;
+        * Início do trabalho do CSS da nova página.
+
+    COMENTÁRIOS: A página foi criada para ter de exemplo a estrutura que seria utilizada em cada página de anime do site. Ainda precisa concluir a página, pois a parte do vídeo ainda não Foi configurada no CSS. Para finalizar o site falta finalizar a demonslayer.html e criar páginas de gênero e alfabético 
+    IDEIA: utilizar a estrutura da página de temporadas para manter padrão. 
+
+/////////////////////////////////////////////////////////////////////
+DATA: 07/06/2023
+    DESENVOLVEDOR: Guilherme Gomes
+        * Finalização da página demonslayer.html;
+        * Ajuste de responsividade da página em mediaquery, para melhor ajuste foi criado novo threshold de width: 710px;
+        * Alteração de todos os font-size de px para rem;
+        * Criada página de gênero acao.html utilizando estrutura de temporadas;
+        * Criadas as páginas de exemplo: exemploAnime.html e exemploBusca.html;
+        * Ajuste de todos os links do site para contemplar as novas páginas (alterados os links nas páginas de index, temporada, gênero e alfabético)
+        * Site finalizado para entrega.
+
+    COMENTÁRIOS: Devido a estrutura básica das páginas serem utilizadas como base para as novas páginas o processo de criação de páginas está mais ágil. Assim quem visitar o site pode ter a experiência de clicar nos links e ser redirecionado para outra página.
